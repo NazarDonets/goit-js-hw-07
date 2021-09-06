@@ -20,7 +20,6 @@ const createBoxes = (amount) => {
       newDiv.style.height = `${height}px`;
       width += 10;
       height += 10;
-      newDiv.style.border = `1px solid black`;
       boxesContainer.append(newDiv);
       newDiv.style.backgroundColor = `rgb(${getRandomInt(256)}, ${getRandomInt(256)}, ${getRandomInt(256)})`
    };
