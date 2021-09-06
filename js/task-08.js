@@ -31,10 +31,10 @@ const destroyBoxes = () => {
    height = 30;
 };
 
-createBtn.addEventListener(`click`, (e) => {
+createBtn.addEventListener(`click`, () => {
    createBoxes(input.value);
 });
 
-removeBtn.addEventListener(`click`, (e) => {
+removeBtn.addEventListener(`click`, () => {
    destroyBoxes();
 });
