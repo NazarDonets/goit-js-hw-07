@@ -10,5 +10,3 @@ inputField.addEventListener(`blur`, (e) => {
       inputField.classList.add(`invalid`);
    };
 });
-
-console.log(inputField);
